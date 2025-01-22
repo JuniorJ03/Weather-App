@@ -1,8 +1,8 @@
 import requests
 
 
-# If you wanna use a txt file instead of hard pasting it (if you can figure it out) use:#-> open('api_key.txt', 'r').read()
-api_key = ('6d298b4853f93b0b36e9ece168ddb665')
+# obtain API key from OpenWeatherMap.
+api_key = ('api_key')
 
 while True:
     location = input('Where In the World? :')
